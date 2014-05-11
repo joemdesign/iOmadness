@@ -10,6 +10,7 @@
 		DE936623191EEC5F000F4785 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE936622191EEC5F000F4785 /* Foundation.framework */; };
 		DE936626191EEC5F000F4785 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE936625191EEC5F000F4785 /* main.m */; };
 		DE93662A191EEC5F000F4785 /* ifElseLoops.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = DE936629191EEC5F000F4785 /* ifElseLoops.1 */; };
+		DE936632191EEC68000F4785 /* console.m in Sources */ = {isa = PBXBuildFile; fileRef = DE936631191EEC68000F4785 /* console.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		DE936625191EEC5F000F4785 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DE936628191EEC5F000F4785 /* ifElseLoops-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ifElseLoops-Prefix.pch"; sourceTree = "<group>"; };
 		DE936629191EEC5F000F4785 /* ifElseLoops.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ifElseLoops.1; sourceTree = "<group>"; };
+		DE936630191EEC68000F4785 /* console.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = console.h; sourceTree = "<group>"; };
+		DE936631191EEC68000F4785 /* console.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = console.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				DE936625191EEC5F000F4785 /* main.m */,
+				DE936630191EEC68000F4785 /* console.h */,
+				DE936631191EEC68000F4785 /* console.m */,
 				DE936629191EEC5F000F4785 /* ifElseLoops.1 */,
 				DE936627191EEC5F000F4785 /* Supporting Files */,
 			);
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE936626191EEC5F000F4785 /* main.m in Sources */,
+				DE936632191EEC68000F4785 /* console.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
